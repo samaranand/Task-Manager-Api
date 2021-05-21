@@ -1,0 +1,14 @@
+body{
+  min-height: 80vh;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.page-footer{
+  padding-top: 0 !important;
+}
