@@ -100,6 +100,7 @@ const upload = multer({
         fileSize: 1000000
     },
     fileFilter(req, file, cb){
+        // here cb stands for callback
         if(!file.originalname.match(/\.(jpg|jpeg|png)$/)){
             return cb(new Error('Plz choose a jpg/jpeg/png file'))
         }
